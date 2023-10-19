@@ -12,6 +12,11 @@ body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+header {
+    background-color: #1F2937;
+
+}
+
 .headertop {
     display: flex;
     justify-content: space-between;
@@ -29,6 +34,7 @@ ul {
     background-color: #1F2937;
     align-items: center;
     justify-content: space-between;
+    margin: 15px 50px;
 }
 
 img {
