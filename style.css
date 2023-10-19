@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.headerbody {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    max-height: 250px;
+}
+
