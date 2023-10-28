@@ -20,9 +20,10 @@ body {
 
 .headertop {
     display: flex;
-    justify-content: space-around;
-    margin: 0px 100px;
+    justify-content: space-between;
     padding-top: 10px;
+    margin-left: 260px;
+    margin-right: 100px;
 }
 
 ul {
@@ -50,12 +51,14 @@ a {
     font-weight: 900;
     color: #F9FAF8;
     max-width: 400px;
+    padding-bottom: 10px;
 }
 
 .hero-secondary-text {
     size: 18px;
     color: #E5E7EB;
     max-width: 400px;
+    padding-bottom: 10px;
 }
 
 .header-logo {
