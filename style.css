@@ -83,11 +83,12 @@ button {
 .second-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }     
 
 .second-section-top {
-    padding: 40px;
+    margin: 40px;
     font-weight: 900;
     color: #1F2937;
 }
@@ -95,18 +96,23 @@ button {
 .boxes {
     display: flex;
     justify-content: center;
-    align-content: center;
-    gap: 30px;
+    gap: 10px;
+    font-size: 18px;
+    margin: 0px 165px;
 }
 
 .square {
 border-style: solid;
 border-color: #3882F6;
 border-radius: 10px;
-width: 100px;
-height: 100px;
+width: 150px;
+height: 150px;
+align-self: center;
 }
 
 .box-1, .box-2, .box-3, .box-4 {
-width: 200px;
+width: 150px;
+display: flex;
+flex-direction: column;
 }
+
