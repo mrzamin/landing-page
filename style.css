@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     font-family: Roboto, sans-serif;
+    border-style: solid;
 }
 
 body {
@@ -78,6 +79,8 @@ img {
 button {
     background-color: #3882F6;
     color: white;
+    border-radius: 5px;
+    padding: 3px;
 }
 
 .second-section {
@@ -107,7 +110,6 @@ border-color: #3882F6;
 border-radius: 10px;
 width: 150px;
 height: 150px;
-align-self: center;
 }
 
 .box-1, .box-2, .box-3, .box-4 {
@@ -115,4 +117,28 @@ width: 150px;
 display: flex;
 flex-direction: column;
 }
+
+.third-section {
+    background-color: #E5E7EB;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote {
+    width: 1000px;
+    border-style: solid;
+    margin-left: 150px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.credit {
+    width: 1000px;
+    border-style: solid;
+    margin-left: 150px;
+    text-align: end;
+}
+
 
