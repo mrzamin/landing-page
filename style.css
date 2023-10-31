@@ -5,7 +5,6 @@
     text-decoration: none;
     list-style: none;
     font-family: Roboto, sans-serif;
-    border-style: solid;
 }
 
 body {
@@ -76,7 +75,7 @@ img {
     max-height: 200px;
 }
 
-button {
+.blue-button {
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
@@ -121,24 +120,64 @@ flex-direction: column;
 .third-section {
     background-color: #E5E7EB;
     margin-top: 30px;
+    align-items: center;
+    border-style: solid;
     display: flex;
     flex-direction: column;
     padding: 100px;
 }
 
 .quote {
-    width: 1000px;
-    border-style: solid;
-    margin-left: 150px;
+    width: 100%;
     font-size: 36px;
     color: #1F2937;
+    border-style: solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 700px;
 }
 
 .credit {
-    width: 1000px;
-    border-style: solid;
-    margin-left: 150px;
+    width: 700px;
     text-align: end;
+    font-weight: 900;
+    margin-top: 20px;
 }
 
+.fourth-section {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
 
+.blue-box {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    padding: 35px;
+    border-radius: 10px;
+    color: white;
+    width: 700px;
+}
+
+.call-left {
+    margin-right: 50px;
+    
+}
+
+.white-button {
+    height: 30px;
+    width: 120px;
+    align-self: center;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    font-weight: 700;
+}
+
+.call {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
