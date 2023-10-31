@@ -181,3 +181,11 @@ flex-direction: column;
     font-weight: 700;
     margin-bottom: 5px;
 }
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
