@@ -47,10 +47,10 @@ a {
 }
 
 .hero-primary-text {
-    size: 48px;
+    size: 70px;
     font-weight: 900;
     color: #F9FAF8;
-    max-width: 400px;
+    max-width: 500px;
     padding-bottom: 10px;
 }
 
@@ -111,6 +111,10 @@ width: 150px;
 height: 150px;
 }
 
+.subtext {
+    text-align: center;
+}
+
 .box-1, .box-2, .box-3, .box-4 {
 width: 150px;
 display: flex;
@@ -131,10 +135,10 @@ flex-direction: column;
     width: 100%;
     font-size: 36px;
     color: #1F2937;
-    border-style: solid;
     margin-left: 300px;
     margin-right: 300px;
     width: 700px;
+    text-align: center;
 }
 
 .credit {
@@ -142,6 +146,7 @@ flex-direction: column;
     text-align: end;
     font-weight: 900;
     margin-top: 20px;
+    margin-right: 10px;
 }
 
 .fourth-section {
